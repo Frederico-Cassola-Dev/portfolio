@@ -1,0 +1,59 @@
+@import "../../css/variables.css";
+
+
+.home{
+  /* width: 100vw; */
+  height: -5vh ;
+  /* background-color: green; */
+  /* margin-top: 5vh; */
+}
+
+.home-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-title{
+  font-size: var(--font-size-title);
+  font-weight: 900;
+  text-align: center;
+  margin-top: -150px;
+}
+
+section{
+  /* width: 100vw; */
+  height: calc(100vh + 5vh);
+  /* background-color: yellow; */
+  border-bottom: 2px solid red;
+
+}
+
+.projects-section{
+  margin-top: 5vh;
+}
+
+.about-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.photo{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.description-container , p {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-large);
+}

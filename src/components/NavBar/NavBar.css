@@ -1,8 +1,26 @@
+@import "../../css/variables.css";
+
 .navBarContainer {
-  background-color: green;
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100vw;
+  height: 5vh;
+  padding-right: var(--spacing-large);
+  background-color: yellow;
+
 }
 
 .list-container {
   display: flex;
-  gap: 30px;
+  justify-content: flex-end;
+  gap: var(--spacing-xl);
+}
+
+.list-item {
+  font-size: var(--font-size-navBar);
+  font-weight: bold;
 }
