@@ -1,0 +1,8 @@
+.navBarContainer {
+  background-color: green;
+}
+
+.list-container {
+  display: flex;
+  gap: 30px;
+}
